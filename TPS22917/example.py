@@ -15,10 +15,10 @@ POWERIO.direction = Direction.OUTPUT
 
 # use this infinite while loop to constantly check the input of the analog pin.
 while True:
-  if DATA_IN > 0:
+  if DATA_IN.value > 0:
     POWERIO.value = True
     time.sleep(0.01)
-    DATA_OUT.value = DATA_IN * 10
+    DATA_OUT.value = DATA_IN.value * 10
   else:
     POWERIO.value = False
   
