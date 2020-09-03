@@ -3,6 +3,7 @@
 import time
 import board
 from digitalio import DigitalInOut, Direction, Pull
+from analogio import AnalogIn, AnalogOut
 
 # create the analog inputs and outputs for this example. Ideally we want to use an input as an interrupt to wake engage the power switch
 DATA_IN = AnalogIn(board.A0)
