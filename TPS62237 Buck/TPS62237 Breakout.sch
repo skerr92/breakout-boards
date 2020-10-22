@@ -5708,6 +5708,22 @@ Part Number: HA-522</description>
 <sheets>
 <sheet>
 <plain>
+<wire x1="-33.02" y1="93.98" x2="106.68" y2="93.98" width="0.1524" layer="94"/>
+<wire x1="106.68" y1="93.98" x2="106.68" y2="12.7" width="0.1524" layer="94"/>
+<wire x1="106.68" y1="12.7" x2="106.68" y2="-10.16" width="0.1524" layer="94"/>
+<wire x1="106.68" y1="-10.16" x2="55.88" y2="-10.16" width="0.1524" layer="94"/>
+<wire x1="55.88" y1="-10.16" x2="-33.02" y2="-10.16" width="0.1524" layer="94"/>
+<wire x1="-33.02" y1="-10.16" x2="-33.02" y2="93.98" width="0.1524" layer="94"/>
+<wire x1="106.68" y1="12.7" x2="55.88" y2="12.7" width="0.1524" layer="94"/>
+<wire x1="55.88" y1="12.7" x2="55.88" y2="-10.16" width="0.1524" layer="94"/>
+<wire x1="109.22" y1="-12.7" x2="109.22" y2="96.52" width="0.1524" layer="94"/>
+<wire x1="109.22" y1="96.52" x2="-35.56" y2="96.52" width="0.1524" layer="94"/>
+<wire x1="-35.56" y1="96.52" x2="-35.56" y2="-12.7" width="0.1524" layer="94"/>
+<wire x1="-35.56" y1="-12.7" x2="109.22" y2="-12.7" width="0.1524" layer="94"/>
+<text x="60.96" y="-2.54" size="1.778" layer="97">TPS62237 Acord
+Designed by Seth Kerr
+For Oak Development Technologies
+Licensed under MIT</text>
 </plain>
 <instances>
 <instance part="U4" gate="A" x="5.08" y="58.42" smashed="yes">
@@ -5815,6 +5831,10 @@ Part Number: HA-522</description>
 </schematic>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
