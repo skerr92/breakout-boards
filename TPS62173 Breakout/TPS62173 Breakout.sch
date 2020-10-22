@@ -5814,6 +5814,22 @@ Source: AVX .. aphvc.pdf</description>
 <sheets>
 <sheet>
 <plain>
+<wire x1="-17.78" y1="78.74" x2="144.78" y2="78.74" width="0.1524" layer="94"/>
+<wire x1="144.78" y1="78.74" x2="144.78" y2="0" width="0.1524" layer="94"/>
+<wire x1="144.78" y1="0" x2="144.78" y2="-22.86" width="0.1524" layer="94"/>
+<wire x1="144.78" y1="-22.86" x2="96.52" y2="-22.86" width="0.1524" layer="94"/>
+<wire x1="96.52" y1="-22.86" x2="-17.78" y2="-22.86" width="0.1524" layer="94"/>
+<wire x1="-17.78" y1="-22.86" x2="-17.78" y2="78.74" width="0.1524" layer="94"/>
+<wire x1="144.78" y1="0" x2="96.52" y2="0" width="0.1524" layer="94"/>
+<wire x1="96.52" y1="0" x2="96.52" y2="-22.86" width="0.1524" layer="94"/>
+<wire x1="147.32" y1="-25.4" x2="147.32" y2="81.28" width="0.1524" layer="94"/>
+<wire x1="147.32" y1="81.28" x2="-20.32" y2="81.28" width="0.1524" layer="94"/>
+<wire x1="-20.32" y1="81.28" x2="-20.32" y2="-25.4" width="0.1524" layer="94"/>
+<wire x1="-20.32" y1="-25.4" x2="147.32" y2="-25.4" width="0.1524" layer="94"/>
+<text x="101.6" y="-15.24" size="1.778" layer="97">TPS62173 Acord
+Designed by Seth Kerr
+For Oak Development Technologies
+Licensed under MIT License</text>
 </plain>
 <instances>
 <instance part="J1" gate="J$1" x="33.02" y="58.42" smashed="yes">
@@ -5925,6 +5941,10 @@ Source: AVX .. aphvc.pdf</description>
 </schematic>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
